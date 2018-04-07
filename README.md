@@ -139,7 +139,7 @@ Explanation for each field:
 
 /* Used for front-end display */
 "symbol": "MRO",
-
+"isMonero": true,
 "logging": {
 
     "files": {

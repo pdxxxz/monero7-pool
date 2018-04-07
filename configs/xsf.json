@@ -2,6 +2,7 @@
     "coin": "flakechain",
     "symbol": "XSF",
     "coinDifficultyTarget": 120,
+    "isMonero": true,
     "logging": {
         "files": {
             "level": "info",

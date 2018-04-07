@@ -1,7 +1,7 @@
 {
     "coin": "monero",
     "symbol": "XMR",
-
+    "isMonero": true,
     "logging": {
         "files": {
             "level": "info",
