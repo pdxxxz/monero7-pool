@@ -1,8 +1,4 @@
-## This repo is looking for maintainers! Please reach out if interested.
---------
-
-
-node-cryptonote-pool
+monero7-pool
 ====================
 
 High performance Node.js (with native C addons) mining pool for CryptoNote based coins such as Bytecoin, Monero, QuazarCoin, HoneyPenny, etc..
@@ -61,25 +57,11 @@ Comes with lightweight example front-end script which uses the pool's AJAX API.
 
 ### Community / Support
 
-* [CryptoNote Forum](https://forum.cryptonote.org/)
-* [Bytecoin Github](https://github.com/amjuarez/bytecoin)
-* [Monero Github](https://github.com/monero-project/bitmonero)
-* [Monero Announcement Thread](https://bitcointalk.org/index.php?topic=583449.0)
-* IRC (freenode)
-  * Support / general discussion join #monero: https://webchat.freenode.net/?channels=#monero
-  * Development discussion join #monero-dev: https://webchat.freenode.net/?channels=#monero-dev
-
+* [KryptoKitchen Telegram](https://t.me/kryptokitchen)
 
 #### Pools Using This Software
 
-* http://xminingpool.com
-* http://xmr.poolto.be
-* https://moneropool.com
-* http://monero.crypto-pool.fr
-* https://minexmr.com
-
-A pool must be operational for 6 months or more before it can be added to this list.
-
+* [Flake Chain Official Pool](http://snowflake.cf)
 
 Usage
 ===
@@ -435,12 +417,15 @@ curl 127.0.0.1:18081/json_rpc -d '{"method":"getblockheaderbyheight","params":{"
 
 Donations
 ---------
-* BTC: `1667jMt7NTZDaC8WXAxtMYBR8DPWCVoU4d`
-* MRO: `48Y4SoUJM5L3YXBEfNQ8bFNsvTNsqcH5Rgq8RF7BwpgvTBj2xr7CmWVanaw7L4U9MnZ4AG7U6Pn1pBhfQhFyFZ1rL1efL8z`
+* BTC: `1BraHuZ94KeuWNLGoh3rjZg8FRrMzqZwRZ`
+* ETH `0x6937fffc49001b75ab18efced5444163c615f44c`
+* LTC `LUYqMEraNP9rETFM4sEiGozLbbECHmz3qs`
+* MRX: `4C7b1NzfZWyYjmRN4Q7JUeMciuMaboeG1PgCCHRKpnbHYnCQfxcJNy37TS1gqdnm7M2EypLPFJ7gpDAVJzn8GkzF5wmeWuMrUikK64nXTk`
 
 Credits
 ===
 
+* [KryptoFoundry](//github.com/0xA01) - Further development.
 * [LucasJones](//github.com/LucasJones) - Co-dev on this project; did tons of debugging for binary structures and fixing them. Pool couldn't have been made without him.
 * [surfer43](//github.com/iamasupernova) - Did lots of testing during development to help figure out bugs and get them fixed
 * [wallet42](http://moneropool.com) - Funded development of payment denominating and min threshold feature

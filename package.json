@@ -1,11 +1,11 @@
 {
-    "name": "cryptonote-pool",
+    "name": "monero7-pool",
     "version": "0.0.1",
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "authors": ["Matthew Little", "KryptoKitchen"],
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-cryptonote-pool.git"
+        "url": "https://github.com/0xA01/monero7-pool.git"
     },
     "dependencies": {
         "bignum": "0.12.5",
@@ -18,6 +18,6 @@
         "cryptonote-util": "git://github.com/Snipa22/node-cryptonote-util#xmr-Nan-2.0"
     },
     "engines": {
-        "node": ">=0.10"
+        "node": "0.10.48"
     }
 }
