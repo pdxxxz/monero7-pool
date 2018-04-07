@@ -1,8 +1,9 @@
 monero7-pool
 ====================
 
-High performance Node.js (with native C addons) mining pool for CryptoNote based coins such as Snowflake, Monero7 etc..
+High performance Node.js (with native C addons) mining pool for Monero7 based coins such as Snowflake, Monero etc..
 Comes with lightweight example front-end script which uses the pool's AJAX API.
+Backmerged features from different forks such as payments split.
 
 #### Table of Contents
 * [Features](#features)
@@ -425,6 +426,7 @@ Credits
 ===
 
 * [KryptoFoundry](//github.com/0xA01) - Further development.
+* [Fancoder](https://github.com/fancoder/cryptonote-universal-pool) - Payments split.
 * [LucasJones](//github.com/LucasJones) - Co-dev on this project; did tons of debugging for binary structures and fixing them. Pool couldn't have been made without him.
 * [surfer43](//github.com/iamasupernova) - Did lots of testing during development to help figure out bugs and get them fixed
 * [wallet42](http://moneropool.com) - Funded development of payment denominating and min threshold feature
