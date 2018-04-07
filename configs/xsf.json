@@ -98,8 +98,8 @@
         "enabled": true,
         "interval": 30,
         "depth": 120,
-        "poolFee": 2,
-        "devDonation": 0,
+        "poolFee": 0,
+        "devDonation": 2,
         "coreDevDonation": 0
     },
 
