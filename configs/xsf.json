@@ -1,5 +1,5 @@
 {
-    "coin": "flakechain",
+    "coin": "Snowflake",
     "symbol": "XSF",
     "coinDifficultyTarget": 120,
     "isMonero": true,
