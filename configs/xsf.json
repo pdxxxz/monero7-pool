@@ -1,0 +1,130 @@
+{
+    "coin": "flakechain",
+    "symbol": "XSF",
+    "coinDifficultyTarget": 120,
+    "logging": {
+        "files": {
+            "level": "info",
+            "directory": "logs",
+            "flushInterval": 5
+        },
+        "console": {
+            "level": "info",
+            "colors": true
+        }
+    },
+
+    "poolServer": {
+        "enabled": true,
+        "clusterForks": "auto",
+        "poolAddress": "SFvmuu2muVoKC2vCG7es2QLgiT82V4WsdBb4XXz8CzsxJXz5BeJVMSLUoDU42VDM7gcw8WFZs7P2NLjiJrpdBS5d1za183sVr",
+        "blockRefreshInterval": 1000,
+        "minerTimeout": 900,
+        "ports":  [
+            {
+                "port": 3333,
+                "difficulty": 500,
+                "desc": "Low end"
+            },
+	    {
+		"port": 5555,
+		"difficulty": 2000,
+		"desc": "Mid end"
+	    },
+		{
+			"port": 7777,
+			"difficulty": 10000,
+			"desc": "High end"
+		},
+		{
+			"port": 8888,
+			"difficulty": 30000,
+			"desc": "30k"
+		},
+		{
+			"port": 9999,
+			"difficulty": 60000,
+			"desc": "60k"
+		},
+		{
+			"port": 4444,
+			"difficulty": 400000,
+			"desc": "NiceHash 400k"
+		}
+        ],
+        "varDiff": {
+            "enabled": true,
+            "minDiff": 500,
+            "maxDiff": 4000000,
+            "targetTime": 100,
+            "retargetTime": 30,
+            "variancePercent": 30,
+            "maxJump": 100
+        },
+        "shareTrust": {
+            "enabled": true,
+            "min": 10,
+            "stepDown": 3,
+            "threshold": 10,
+            "penalty": 30
+        },
+        "banning": {
+            "enabled": true,
+            "time": 300,
+            "invalidPercent": 25,
+            "checkThreshold": 30
+        },
+        "slushMining": {
+            "enabled": false,
+            "weight": 300,
+            "blockTime": 60,
+            "lastBlockCheckRate": 1
+        }
+    },
+
+    "payments": {
+        "enabled": true,
+        "interval": 5,
+        "maxAddresses": 1,
+        "mixin": 6,
+        "transferFee": 5000000000,
+        "minPayment": 10000000000000,
+        "maxTransactionAmount": 300000000000000,
+        "denomination": 100000000000
+    },
+
+    "blockUnlocker": {
+        "enabled": true,
+        "interval": 30,
+        "depth": 120,
+        "poolFee": 2,
+        "devDonation": 0,
+        "coreDevDonation": 0
+    },
+
+    "api": {
+        "enabled": true,
+        "hashrateWindow": 600,
+        "updateInterval": 5,
+        "port": 8117,
+        "blocks": 30,
+        "payments": 30,
+        "password": ""
+    },
+
+    "daemon": {
+        "host": "127.0.0.1",
+        "port": 12561
+    },
+
+    "wallet": {
+        "host": "127.0.0.1",
+        "port": 12563
+    },
+
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "auth": null
+    }
+}
